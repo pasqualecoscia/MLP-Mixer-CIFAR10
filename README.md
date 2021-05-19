@@ -47,7 +47,11 @@ Open the main files for the complete list of allowed input parameters.
 To download both results and pre-trained models:
 
 ```
-wget https://www.dropbox.com/sh/rycvh295g6975dd/AADCN1vYImM7gYdc5_omKjH7a?dl=0
+mkdir Results
+cd Results
+curl -L https://www.dropbox.com/sh/rycvh295g6975dd/AADCN1vYImM7gYdc5_omKjH7a?dl=0 >> Results.zip
 unzip Results
+rm Results.zip
 ```
+
 TODO: parameters fine-tuning; solve over-fitting.
