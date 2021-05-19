@@ -5,11 +5,14 @@ This repo contains a re-implementation of the MLP-Mixer model
 and another MLP-Mixer-inspired model to classify CIFAR-10 images.
 Both pre-trained and trained models are provided. 
 
+<img src="./Mixer-MLP-Inspired.png" width="700" height="450">
+
 Two main files are provided:
 
 1. main_cifar10.py for training both models from scratch;
 2. main_tiny_imagenet.py for pre-training both models on TinyImageNet (200 classes - 500 images/class)
 and then fine-tuning on CIFAR-10.
+
 
 Steps:
 
@@ -35,7 +38,7 @@ Results:
 |                               |   Mixer-MLP   | Mixer-MLP-Inspired | 
 |             :---:             |     :---:     |        :---:       |
 |            From scratch       |    57.54 %    |      64.48 %       |
-|  Pre-trained on TinyImageNet  |               |                    |
+|  Pre-trained on TinyImageNet  |    68.36 %    |      56.87 %       |
 
 
 Optional parameters can be provided as input (e.g., batch_size, depth, n_epochs, ...).
