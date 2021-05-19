@@ -44,4 +44,10 @@ Results:
 Optional parameters can be provided as input (e.g., batch_size, depth, n_epochs, ...).
 Open the main files for the complete list of allowed input parameters.
 
+To download both results and pre-trained models:
 
+```
+wget https://www.dropbox.com/sh/rycvh295g6975dd/AADCN1vYImM7gYdc5_omKjH7a?dl=0
+unzip Results
+```
+TODO: parameters fine-tuning; solve over-fitting.
